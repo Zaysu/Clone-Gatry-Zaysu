@@ -1,0 +1,52 @@
+.promotion-card {
+    border-radius: 8px;
+    border: 1px solid #c3cec3;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.promotion-card__image {
+    width: 100px;
+    margin: 0 15px 0 0;
+}
+
+
+.promotion-card__title {
+    font-size: 1.2rem;
+    color : #2f2f2f;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.promotion-card__price {
+    font-size:  26px;
+    font-weight: 700;
+    color: #3498DB;
+}
+.promotion-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion-card__comment {
+    font-weight: 700;
+    color: #95A5A6;
+}
+
+.promotion-card__comments-count {
+    margin-left: auto;
+    margin-right: 12px;
+    color: #3498DB;
+}
+
+.promotion-card__url {
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+    color: #3498DB;
+    text-decoration: none;
+    padding: 6px 10px;
+}
